@@ -31,11 +31,6 @@ def get_audio():
             global guy
             guy = said
             
-            #ask for time function
-            if "current time" in guy:
-                engine = pyttsx3.init()
-                engine.runAndWait()
-                
         
         except Exception as Error:
             return None
